@@ -15,7 +15,7 @@ public class Store {
     }
 
     public Store() {
-        //chooseCategory(); m
+        //chooseCategory();
 
         // creating movies for ArrayList
         createMovie("Romance", "Pride and Prejudice", 99.99, 15, 5, "04/01/2006");
