@@ -1,0 +1,39 @@
+// move items from stock to individual cart
+// limited items in stock
+
+Store
+ + item: String
+ + itemQuantity: int
+
+Customer
+ # customerName: String
+ # customerAge: int
+ + checkAge(age: int): void
+ + checkOutOfStock()
+
+Cart
+ + item: String
+ + itemQuantity: int
+ + itemPrice: double
+ + totalPrice(itemPrice: double, itemQuantity: int): void
+
+Item
+ + itemOutOfStock(item: String, itemQuantity: int): void
+ + getItemKind(name: String, price: double, quantity: int):
+
+romanceCategory
+ - categoryName: String
+
+horrorCategory
+ - categoryName: String
+
+scifiCategory
+ - categoryName: String
+
+movie1, movie2, movie3, movie4, movie5, movie6, movie7
+ - name: String
+ - price: double
+ - quantity: int
+ - kind: String
+ - ageLimit: int
+ - release: String
